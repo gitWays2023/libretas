@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import Logo from "../assets/logo.png";
 import { RiMenu3Line } from "react-icons/ri";
 import { Link } from "react-scroll";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export function Navbar() {
   const navbarRef = useRef<HTMLDivElement | null>(null);
@@ -122,7 +122,7 @@ export function Navbar() {
           >
             <div className="flex flex-col">
               <Link
-                to="section1"
+                to="home"
                 smooth={true}
                 duration={500}
                 className="relative py-2 px-4 text-white w-full cursor-pointer hover:font-bold"
@@ -130,12 +130,12 @@ export function Navbar() {
                 About Us
               </Link>
               <Link
-                to="whyus"
+                to="service"
                 smooth={true}
                 duration={500}
                 className="relative py-2 px-4 text-white w-full cursor-pointer hover:font-bold"
               >
-                Why Us
+                Services
               </Link>
               <Link
                 to="contact"

@@ -19,9 +19,9 @@ export function Navbar() {
   //   }
   // };
 
-  const handleButtonClick = () => {
-    toggleNavbar();
-  };
+  // const handleButtonClick = () => {
+  //   toggleNavbar();
+  // };
 
   const toggleNavbar = () => {
     if (navbarRef.current) {

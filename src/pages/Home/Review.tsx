@@ -17,19 +17,19 @@ const slides = [
     name: "Samson",
     img: Person1,
     title: "Web Developer",
-    desc: "This people have a wide range of product that i like, there this is what makes them the best to deal with and the best people for our skin care",
+    desc: "This people provides good services that can help your business to grow in al measure they have really help my company",
   },
   {
     name: "Genevieve",
     img: Person2,
     title: "Hair Stylits",
-    desc: "With the provision from browny there have been some cure to some skin irritation and also the product of their hairs are quite original and suitable fo my customer",
+    desc: "In the aspect of personnel training they have really done enogh for my company my employees are now up and willing to adapt to the new technologies",
   },
   {
     name: "Samuel",
     img: Person3,
     title: "Web Hacker",
-    desc: "This product is kind of Good i can now let go of my bar head, there this is what makes them the best to deal with and the best people for our skin care",
+    desc: "Libetras is one of the brand that give the best analytics fo businesses which can enhance the growth of the company in a period of time that is what have upshoot my company",
   },
 ];
 

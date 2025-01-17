@@ -6,27 +6,27 @@ import Img3 from "../../assets/service3.png";
 const services = [
   {
     image: Img1,
-    title: "Asset Development",
+    title: "ASSET DEVELOPMENT (B2B), (B2C):",
     description:
-      "We development and improve on company asset to give the best value and also helping a company create value .",
+      "We empower individuals and communities to generate and transfer value leveraging platforms.",
   },
   {
     image: Img2,
-    title: "Personnel Development",
+    title: "PERSONNEL DEVELOPMENT (B2B), (B2C):",
     description:
-      "We working on personnel development of a company its staff and the use of some technological amenities.",
+      "We empower individuals and staff to understand, adopt and enhance technologies for sustainable service.",
   },
   {
     image: Img3,
-    title: "Innovation Diffusion and Analytics",
+    title: "INNOVATION ANALYTICS AND DIFFUSION:",
     description:
-      "Innovation is the service we render to improve on companies asset and also analyze and control distribution.",
+      "We research innovations and design sustainable diffusion mechanisms to empower builders.",
   },
 ];
 
 const Services: React.FC = () => {
   return (
-    <section id="service" className="py-12 bg-gray-100 ">
+    <section id="service" className="py-16 bg-gray-100 ">
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

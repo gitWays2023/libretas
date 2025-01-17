@@ -28,17 +28,16 @@ const Hero: React.FC = () => {
         <SwiperSlide className="bg-transparent py-20">
           <div className="flex justify-between px-4 py-14 flex-col md:flex-row sm:px-8 lg:px-10 items-center gap-2 bg-transparent">
             <div className="text-left w-full md:w-[40%]">
-              <h1 className="text-white text-3xl md:text-5xl font-bold">
-                We Solve Business Problems with Technology
+              <h1 className="text-white text-3xl capitalize md:text-5xl font-bold">
+                Congratulations you have found freedom
               </h1>
-              <p className="text-white text-lg py-8 mt-4 leading-snug">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                fermentum, urna nec accumsan feugiat, metus tortor volutpat
-                ligula, non tempus justo magna at mi.
+              <p className="text-white text-md md:text-lg py-8 mt-4 leading-snug">
+                Everyone has the right to freedom of opinion and expression;
+                this right includes freedom to hold opinions without
+                interference and to seek, receive and impart information and
+                ideas through any media and regardless of frontiers" Article 19,
+                universal declaration of human rights
               </p>
-              <button className="text-white border border-white py-2 px-4 mt-4">
-                Get Started
-              </button>
             </div>
             <div className="w-full md:w-[50%] p-8 ">
               <img src={Img2} className="w-[80%]" alt="Slide 1" />
@@ -49,16 +48,12 @@ const Hero: React.FC = () => {
           <div className="flex justify-between px-4 py-14 flex-col md:flex-row sm:px-8 lg:px-10 items-center gap-2 bg-transparent">
             <div className="text-left w-full md:w-[40%]">
               <h1 className="text-white text-3xl md:text-5xl font-bold">
-                Our Product Create Transparency System and Building Trust
+                We All Deserve Assets
               </h1>
               <p className="text-white text-lg py-8 mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                fermentum, urna nec accumsan feugiat, metus tortor volutpat
-                ligula, non tempus justo magna at mi.
+                Discover Research, platforms and communities for the development
+                and access to Web Assets.
               </p>
-              <button className="text-white border border-white py-2 px-4 mt-4">
-                Get Started
-              </button>
             </div>
             <div className="w-full md:w-[50%] p-8 ">
               <img src={Img3} className="w-[80%]" alt="Slide 1" />
@@ -69,16 +64,12 @@ const Hero: React.FC = () => {
           <div className="flex justify-between px-4 py-14 flex-col md:flex-row sm:px-8 lg:px-10 items-center gap-2 bg-transparent">
             <div className="text-left w-full md:w-[40%]">
               <h1 className="text-white text-3xl md:text-5xl font-bold">
-                We are Improving on the System by Integrating Blockchain
+                Spread the Word
               </h1>
               <p className="text-white text-lg py-8 mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                fermentum, urna nec accumsan feugiat, metus tortor volutpat
-                ligula, non tempus justo magna at mi.
+                Get Involved with Libertas Alpha directly: create value, become
+                a partner in research and develop solutions.
               </p>
-              <button className="text-white border border-white py-2 px-4 mt-4">
-                Get Started
-              </button>
             </div>
             <div className="w-full md:w-[50%] p-8 ">
               <img src={Img2} className="w-[80%]" alt="Slide 1" />

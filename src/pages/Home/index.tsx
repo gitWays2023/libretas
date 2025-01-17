@@ -6,6 +6,7 @@ import Review from "./Review";
 import NewsLetter from "../../utils/NewsLetter";
 import Contact from "./Contact";
 import { FrequentlyQuestion } from "../../utils/FrequentlyQuestion";
+import Team from "./Team";
 
 const Home: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
       <Services />
       <AboutUs />
       <Review />
+      <Team />
       <FrequentlyQuestion />
       <Contact />
       <NewsLetter />

@@ -7,7 +7,7 @@ import {
 
 export function FrequentlyQuestion(): JSX.Element {
   return (
-    <div className="py-8 bg-gray-100 px-4">
+    <div id="faq" className="py-12 bg-gray-100 px-4">
       <div className="text-3xl md:text-4xl font-bold font-kanit py-8 text-center">
         FAQ
       </div>

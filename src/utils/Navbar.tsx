@@ -99,7 +99,7 @@ export function Navbar() {
             duration={500}
             className="relative py-2 px-4  before:absolute text-xs lg:text-sm cursor-pointer before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-[0%] transition-all duration-200 hover:before:w-[60%] before:h-[2px] before:bg-gray-100 text-white font-bold "
           >
-            Contact
+            Services
           </Link>
           <Link
             to="faq"
